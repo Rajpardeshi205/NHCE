@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="course.css"> 
+    <!-- <link rel="stylesheet" href="facilities.css">    -->
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="blog.css"> 
+    <link rel="stylesheet" href="sub-header.css">
+    <link rel="stylesheet" href="contact.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/86703ee8b0.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" id="logo"><img src="logo.png" alt="Logo"></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15101.763883447442!2d76.5082664!3d18.8675086!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcff71bf00ea235%3A0xd0d47285cfdbabbb!2sN%20H%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1706028136132!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact_us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>At Brahmawadi, Post -Tokwadi,</h5>
+                        <p>Parli-Beed State Highway, Parli-V., Dist. BEED</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>Phone No. (02446) 224334,</h5>
+                        <p>Fax-(02446) 224334</p>
+                    </span>
+                </div>
+                <div>
+                    <i class=" fa fa-regular fa-envelope"></i>
+                    <span>
+                        <h5>nhce1@hotmail.com
+                        </h5>
+                        <p>Email Us Your Query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="form-handler.php">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email" required>
+                    <input type="text" name="Subject" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" name="Message" placeholder="Message" required></textarea>
+                    <button type="submit" class="visit-btn red-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div id=about-nhc>
+        <h4>ABOUT NHC</h4>
+        <ul>
+           <address>At Brahmawadi,Post-Tokwadi,<br>
+            Parli-Beed State Highway,Parli-V.<br>
+            Dist. Beed<br><br>
+            (02446)224334<br><br>
+            <a link="nhce1@hotmail.com">nhce1@hotmail.com</a></address>
+        </ul>
+        </div>
+        <div id="res">
+        <h4>RESOURCES</h4>
+        <ul>
+        <a href="https://www.nhce.in/wp-content/uploads/2019/05/mandatory-disclosures.pdf">Mandatory Disclosures</a>
+        <a href="#">Forms and Admision Materials</a>
+        <a href="#">Guidance Documents</a>
+        <a href="#">Hardcopy</a>
+        <a href="#">FAQs</a>
+        <a href="#">Professional Education</a>
+        <a href="#">Courses in Education</a>
+        </ul>
+        </div>
+
+        <div>
+            <h4>QUICK ENQUIRY</h4>
+            <div class="contact-col">
+
+                <form action="form-handler.php">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email" required>
+                    <input type="text" name="Subject" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" name="Message" placeholder="Message" required></textarea>
+                    <button type="submit" class="visit-btn red-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="copyright">
+        <p>&#169; Copyright 2024 NHC. POWERED BY RAJ PARDESHI</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="header.js"></script>
+    <script src="course.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+.footer
+{
+    width: 100%;
+    background-color: #20232e;
+    color: ghostwhite;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.footer h4
+{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.footer ul
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer a
+{
+    text-decoration: none;
+    color: ghostwhite;
+    margin-bottom: 15px;
+}
+
+.footer ul a,address,input
+{
+    display: block;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.footer input
+{
+    height: 35px;
+}
+
+.footer input#msg
+{
+    height: 90px;
+}
+
+.footer button
+{
+    margin-top: 20px;
+    height: 2rem;
+    width: 7rem;
+    background-color: #00bbf9;
+}
+
+::placeholder
+{
+    color: grey;
+    text-align: left;    
+}
+
+.footer input[type=text]
+{
+    background-color: transparent;
+    border: 1px solid ghostwhite;
+    color: white;
+}
+
+.footer input[type=email]
+{
+    background-color: transparent;
+    border: 1px solid ghostwhite;
+    color: white;
+}
+
+
+.copyright
+{
+    background-color: #1b1d26;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.contact-col input,textarea
+{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+
+}
+
+@media(width<700)
+{
+    .footer input
+    {
+        width: 100%;
+    }
+}
